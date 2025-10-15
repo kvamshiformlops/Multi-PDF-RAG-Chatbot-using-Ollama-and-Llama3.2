@@ -164,8 +164,7 @@ Notes:
 
 ```txt
 .
-├─ main.py                # FastAPI app and RAG pipeline
-├─ uploads/               # Uploaded files (created at runtime)
+├─ app.py                # FastAPI app and RAG pipeline
 ├─ requirements.txt       # Python dependencies
 └─ README.md              # Documentation
 ```
