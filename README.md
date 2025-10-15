@@ -160,6 +160,8 @@ Notes:
 - Files are written to disk under uploads/. Sanitize, scan, and/or auto-clean as required for your environment.
 - Do not expose this service publicly without proper security hardening.
 
+### For Demo refer:https://www.youtube.com/watch?v=423PTTbU5Fo&list=PL5KgUfre2GtxZOHdAG6ldGwW4uFXrxgrV&pp=gAQB0gcJCacEOCosWNin
+
 ### Project Structure
 
 ```txt
@@ -168,7 +170,6 @@ Notes:
 ├─ requirements.txt       # Python dependencies
 └─ README.md              # Documentation
 ```
-
 ### Extensibility
 - Additional file types: Extend FileProcessor.get_file_text with new LangChain loaders (e.g., DOCX).
 - Index persistence: Use FAISS save/load to maintain the vector store across restarts.
