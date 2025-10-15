@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic>=2.0
+langchain
+langchain-community
+langchain-experimental
+sentence-transformers
+faiss-cpu
+pypdf
+numpy
