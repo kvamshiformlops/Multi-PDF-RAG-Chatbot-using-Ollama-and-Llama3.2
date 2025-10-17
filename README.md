@@ -160,13 +160,13 @@ Notes:
 - Files are written to disk under uploads/. Sanitize, scan, and/or auto-clean as required for your environment.
 - Do not expose this service publicly without proper security hardening.
 
-### For Demo refer:https://www.youtube.com/watch?v=423PTTbU5Fo&list=PL5KgUfre2GtxZOHdAG6ldGwW4uFXrxgrV&pp=gAQB0gcJCacEOCosWNin
+### For Demo refer:https://www.youtube.com/watch?v=ffW3iIVVqVU
 
 ### Project Structure
 
 ```txt
 .
-├─ app.py                # FastAPI app and RAG pipeline
+├─ app.py                 # FastAPI app and RAG pipeline
 ├─ requirements.txt       # Python dependencies
 └─ README.md              # Documentation
 ```
